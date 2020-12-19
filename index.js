@@ -127,6 +127,6 @@ app.get("/url/:data", async function (req, res) {
   console.log("istek geldi.");
 });
 
-var server = app.listen(PORT, function () {
+app.listen(PORT, function () {
   console.log("sunucu calisiyor");
 });
